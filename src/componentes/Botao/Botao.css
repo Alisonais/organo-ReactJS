@@ -1,0 +1,25 @@
+
+
+.btnButton{
+    font-weight: 700;
+    font-size: 20px;
+    padding: 29px 32px;
+    border: none;
+    background-color: #6278F7;
+    border-radius: 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 1s;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, .25);
+}
+
+.btnButton:hover{
+    color: #95FFD4;
+    box-shadow: 0px 1px 10px 5px #95ffd4;
+}
+
+.btnButton:focus-visible{
+    outline: none;
+    color: #95FFD4;
+}
+

@@ -1,0 +1,30 @@
+
+
+.campo label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 24px;
+    color:#212121;
+    font-weight: bold;
+}
+
+.campo input{
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    background: #FFFFFF;
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    padding: 24px;
+    box-sizing: border-box;
+    color: #AFAFAF;
+    font-weight:400;
+    outline: none;
+    border-radius: 10px;
+}
+
+.campo-color input{
+    height:60px;
+    padding: 10px 40px;
+}
+
+

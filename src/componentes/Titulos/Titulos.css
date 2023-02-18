@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+
+.titulo{
+    font-family: 'Prata', serif;
+    font-size: 32px;
+    color: #212121;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}

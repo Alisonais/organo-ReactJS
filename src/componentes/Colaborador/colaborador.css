@@ -1,0 +1,47 @@
+.colaboradorCard{
+    position: relative;
+    width: 280px;
+}
+
+.colaboradorCabecalho{
+    background-color: #f0f0f0;
+    border-radius: 10px 10px 0 0;
+}
+
+.colaboradorImg{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -50px;
+}
+
+.colaboradorRodape{
+    background: #ffffff;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.08);
+    border-radius: 0 0 10px 10px;
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+
+.colaboradorRodapeH4{
+    color: #627bf7;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.colaboradorRodapeH5{
+    font-size: 18px;
+    line-height: 22px;
+    padding: 0 16px;
+    color: #212121;
+}
+
+.deletar{
+    position: absolute;
+    right: -12px;
+    top: -12px;
+    cursor: pointer;
+}
