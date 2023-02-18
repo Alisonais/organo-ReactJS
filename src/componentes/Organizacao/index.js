@@ -7,7 +7,7 @@ const Organizacao = (props) =>{
             <div className='organizacaoTitulo'>
                 <Titulos 
                     corEtiqueta = {"#6278F7"} 
-                    texto = {'Minha Organização'}
+                    texto = {'Minha Organização:'}
                     size = {'40px'} 
                     color = {"#6278F7"}
                 />
