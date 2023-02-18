@@ -5,6 +5,7 @@ import Formulario from './componentes/Formulario';
 import Rodape from './componentes/Rodape';
 import Time from './componentes/Time';
 import { v4 as uuidv4 } from 'uuid';
+import Organizacao from './componentes/Organizacao';
 
 
 function App() { 
@@ -101,6 +102,18 @@ function App() {
     }))
   }
 
+  function acaoButton(){
+    const acaoFormulario = document.querySelector(".formularioSection")
+    if(acaoFormulario.style.display === ''|| acaoFormulario.style.display === 'flex'){
+        acaoFormulario.style = 'display:none'
+        console.log(acaoFormulario.style.display);
+    } else {
+        acaoFormulario.style = 'display:flex'
+        console.log(acaoFormulario.style.display);
+    }
+
+  }
+
   return (
     <div className="App">
       <Banner />
@@ -108,6 +121,9 @@ function App() {
         cadastrarTime = {cadastrarTime}
         times={timeslocalstorage.map(time => time.nomeTime)} 
         aocadastrado={colaborador => novoColaboradorAdicionado(colaborador)}
+      />
+      <Organizacao
+        botao = {acaoButton}
       />
       {timeslocalstorage.map(time => 
         <Time 

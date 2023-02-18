@@ -1,0 +1,23 @@
+.organizacao{
+    position: relative;
+    width: 90%;
+    margin: 80px auto;
+}
+
+.organizacaoTitulo{
+    text-align: center;
+}
+
+.organizacaoButton{
+    border: none;
+    background: none;
+    position:absolute;
+    right: -57px;
+    top: -23px;
+    cursor: pointer;
+}
+.organizacao h3{
+    border-bottom: 4px solid;
+    display: inline-block;
+    padding-bottom: 8px;
+}
